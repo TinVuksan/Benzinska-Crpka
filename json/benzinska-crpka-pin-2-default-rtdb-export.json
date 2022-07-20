@@ -1,0 +1,28 @@
+{
+  "podaci" : {
+    "goriva" : {
+      "benzin" : {
+        "cijena" : 9.95,
+        "kolicina" : 20000
+      },
+      "diesel" : {
+        "cijena" : 8.78,
+        "kolicina" : 20000
+      }
+    },
+    "racuni" : {
+      "racun_15_12_2020" : {
+        "cijena" : 759.26,
+        "datum" : "15/12/2020",
+        "gorivo" : "benzin",
+        "id" : "002"
+      },
+      "racun_21_12_2020" : {
+        "cijena" : 568.75,
+        "datum" : "21/12/2020",
+        "gorivo" : "diesel",
+        "id" : "001"
+      }
+    }
+  }
+}

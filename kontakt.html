@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="https://kit.fontawesome.com/9b0c1e8d1e.js" crossorigin="anonymous"></script>
+
+	<title>Upis smetnje</title>
+
+
+
+</head>
+
+<body>
+
+<ul class="nav justify-content-left">
+
+  <li class="nav-item">
+  	<a class="nav-link" href="index.html">
+      		<img src="img/brand.png" alt="Petrol logo" width="80" height="50">
+      		
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="semaforbenzin" href="#"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="semafordizel" href="#"></a>
+  </li>
+  
+  <li class="nav-item">
+    <button id="odjava" class="btn btn-dark btn-lg" type="button" onclick="UserLogout()">Odjava</button>
+  </li>
+
+</ul>
+
+<section id="kontaktirajte_nas">
+	<h1 class="display-4" id="kontaktNaslov">Prijavi smetnju! </h1>
+	<br>
+	<div class="container">
+	<form class="contact-form" action="php/contactform.php" method="post">
+		<div class="form-row">
+			<div class="form-group col-lg-4">
+				
+				<input id="ime" class="form-control" type="text" name="ime" placeholder="Ime">
+			</div>
+
+			<div class="form-group col-lg-4">
+				
+				<input id="prezime" class="form-control" type="text" name="prezime" placeholder="Prezime">
+			</div>
+
+			<div class="form-group col-lg-4">
+			
+				<input id="email" class="form-control" type="email" name="email" placeholder="Mail adresa">
+			</div>
+		
+			<div class="form-group col-lg-12">
+			
+				<input id="naslov" class="form-control" type="text" name="naslov" placeholder="Vrsta smetnje">
+			</div>
+		
+			<div class="form-group col-lg-12">
+				
+				<textarea id="poruka" class="form-control" type="text"  rows="8" name="poruka" placeholder="Ovdje napišite dodatne informacije u vezi smetnje"></textarea>
+			</div>
+
+			<div class="form-group col-lg-6">
+				<button type="submit" class="btn btn-primary" id="submit" name="submit">Pošalji!</button>
+			</div>
+		</div>
+	</form>
+	</div>
+
+</section>
+
+<footer id="footer">
+
+	<p>Tin Vukšan, PIN-2</p>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+<script src="js/firebase.js"></script>	
+<script src="js/login.js"></script>
+<script src="js/kontakt.js"></script>
+<script src="js/stanjespremnika.js"></script>
+
+</body>
+</html>

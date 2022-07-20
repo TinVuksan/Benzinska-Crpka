@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+
+
+body 
+{
+	font-family:"Poppins", sans-serif;
+	font-weight:normal;
+	font-style:normal;
+	font-size:1.5rem;
+	background: rgba(0, 21, 181,0.7);
+	color:#FFF8DC;
+	position:relative;
+
+	
+}
+
+
+
+*
+{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	
+}
+
+a
+{
+	color:#FFF8DC;
+	text-decoration:none;
+	padding:1rem;
+}
+
+a:hover {
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  color: black;
+  text-decoration:none;
+  }
+
+#semaforbenzin:hover, #semafordizel:hover
+ {
+ 	-webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  color: red;
+  text-decoration:none;
+ }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 
+  {
+  	
+  	
+  	margin:0px;
+  }
+
+#submit
+{
+	width:10rem;
+	margin-left:5px;
+}
+
+#alert-info
+{
+	text-align:left;
+	width:70%;
+
+}
+.racunanje
+{
+	display:inline-block;
+}
+
+#gumbi
+{
+	display:flex;
+	justify-content:center;
+	color:black;
+	margin:0;
+	padding:0;
+	list-style:none;
+	margin-top:4rem;
+}
+#main-naslov
+{
+	display:flex;
+	justify-content: center;
+	color:black;
+	margin:0;
+	padding:0;
+	margin-top:11rem;
+	font-size:80px;
+}
+
+
+
+
+
+#footer {
+  position:fixed;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  color: #adadad;
+  text-align: center;
+}
+#footer2 {
+  
+  
+  width: 100%;
+  color: #adadad;
+  text-align: center;
+}
+
+#kontaktirajte_nas
+{
+	max-width:800px;
+	margin: 50px auto;
+	position:relative;
+	box-shadow:0 10px 30px 0px rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.15);
+	padding:30px;
+}
+#izdavanje_racuna
+{
+	max-width:800px;
+	margin: 12rem auto;
+	position:relative;
+	box-shadow:0 10px 30px 0px rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.15);
+	padding:25px;
+}
+
+#tablicaracuna
+{
+	
+	margin: 3rem auto;
+
+	box-shadow:0 10px 30px 0px rgba(0,0,0,0.5);
+	background: rgba(0,0,0,0.15);
+	padding:25px;
+}
+#header_prikaz
+{
+
+}
+#search
+{
+	max-width:500px;
+	position:relative;
+	margin:10px auto 10px 5px;
+}
+#kontaktNaslov
+{
+	margin-left:15px;
+}
+#odjava
+{
+	position:fixed;
+	top:8px;
+	right:15px;
+}
+
+.form-control
+{
+	padding:15px;
+	margin:5px;
+}
+
+#odabirDatuma
+{
+	
+   background: #333;
+   border: 1px solid #555;
+   color: #EEE;
+
+}
+#cijena
+{
+	position:relative;
+	right:15px;
+}

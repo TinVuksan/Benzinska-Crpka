@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="HR">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="sorTable/css/sorTable.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script src="https://kit.fontawesome.com/9b0c1e8d1e.js" crossorigin="anonymous"></script>
+	
+
+	<title>Pregled računa</title>
+
+</head>
+<body>
+
+<ul class="nav justify-content-left">
+
+  <li class="nav-item">
+  	<a class="nav-link" href="index.html">
+      		<img src="img/brand.png" alt="Petrol logo" width="80" height="50">
+      		
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="semaforbenzin" href="#"></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="semafordizel" href="#"></a>
+  </li>
+  
+  <li class="nav-item">
+    <button id="odjava" class="btn btn-dark btn-lg" type="button" onclick="UserLogout()">Odjava</button>
+  </li>
+
+</ul>
+
+		<main>
+			<div class="container" id="tablicaracuna">
+				
+					<h1 id="header_prikaz" class="display-1">Prikaz računa</h1>
+				
+				
+					<form class="d-flex" id="search">
+						<input class="form-control me-2" id="searchbar" type="search" name="searchbar" placeholder="Pretraga" aria-label="Search">
+      				</form>
+					<br>
+
+			<table id="myTable" class="table table-hover sortable">
+				<thead>
+					<tr>
+						<th>Rbr</th>
+						<th>Datum</th>
+						<th>Kolicina goriva</th>
+						<th>Tip goriva</th>
+						<th>Ukupna cijena</th>
+						<th>Storniranje</th>
+					</tr>
+				</thead>
+				<tbody id="table_body">
+					
+				</tbody>
+			</table>
+			</div>
+		</main>
+
+
+<footer id="footer2">
+
+	<p>Tin Vukšan, PIN-2</p>
+
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-database.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+<script src="js/firebase.js"></script>	
+<script src="sorTable/js/sorTable.js"></script>
+<script src="js/login.js"></script>
+<script src="js/pregledracuna.js"></script>
+<script src="js/stanjespremnika.js"></script>
+</body>
+</html>
