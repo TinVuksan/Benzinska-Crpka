@@ -10,11 +10,12 @@ if (isset($_POST['submit'])) {
 
 	$mojMail = "tin.vuksan@vsmti.hr";
 	$headers = "From: ".$mail;
-	$txt = "Primili ste mail od ".$ime " " .$prezime".\n\n".$poruka;
+
 
 	mail($mojMail, $naslov, $txt, $headers);
 	header("Location: kontakt.html?mailsend");
-}
+} 
+
 
 
 /*				<div class="form-group col-lg-4">
